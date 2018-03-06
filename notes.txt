@@ -1,0 +1,14 @@
+<1>. Auto login for pushing and pulling for pirticular repository:
+		clone repository-> goto .git/config file add this at bottom (if credentials tag present then add under it otherwise add full thing)
+[credential]
+	username = your_username
+	password = your_password
+	helper = store
+
+<2>. Basics git steps:
+		1. clone repository
+		2. do whatever changes u want in repo.(folder)
+		3. type command 'git add -A'
+		4. type command 'git commit -m "your msg"'
+		5. type command 'git push'
+		6. if asked type ur username and password of github account
