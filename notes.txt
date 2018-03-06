@@ -5,6 +5,7 @@
 	password = your_password
 	helper = store
 
+
 <2>. Basics git steps:
 		1. clone repository
 		2. do whatever changes u want in repo.(folder)
