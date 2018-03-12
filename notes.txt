@@ -14,3 +14,13 @@
 		5. type command 'git push'
 		6. if asked type ur username and password of github account
 		7. for shourtcut copy and paste 'git add -A && git commit -m "whatever" && git push'
+<3>. Autorun script in raspberry pi:
+		1. type command "sudo nano /etc/profile"
+		2. Scroll to the bottom and add the following line :
+			"sudo python /home/pi/YOUR_SCRIPT_NAME.py"
+			then ctrl+x then 'y' then press enter
+			-------OR------ (To run your script in background )
+		2. Scroll to the bottom and add the following line :
+			"sudo python /home/pi/YOUR_SCRIPT_NAME.py &"
+			then ctrl+x then 'y' then press enter
+		
