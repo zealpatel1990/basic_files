@@ -4,7 +4,11 @@
 	helper = store
 	username = your_username
 	password = your_password
-
+	----------or--------- type:-
+	"git config credential.helper store && git config credential.username YOURUSERNAME && git config credential.password YOURPASSWORD"
+	---for global use----:-
+	"git config -global credential.helper store && git config --global credential.username YOURUSERNAME && git config --global credential.password YOURPASSWORD"
+	
 
 <2>. Basics git steps:
 		1. clone repository
